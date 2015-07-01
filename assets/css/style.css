@@ -1,0 +1,7 @@
+*{margin: 0 auto;}
+.back{
+	background-image: url('../img/googledevg.jpg');
+	background-repeat: no-repeat;
+  background-position: 50%;
+  background-position-y: -16%;
+}

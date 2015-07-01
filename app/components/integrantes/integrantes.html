@@ -1,0 +1,32 @@
+    <table st-table="displayedCollection"  st-safe-src="rowCollection"  class="table table-striped">
+        <thead>
+            <tr>
+                <th >Nombre</th>
+                <th >Edad</th>
+                <th >Correo</th>
+                <th >Skill</th>
+
+            </tr>
+            <tr>               
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="div in vm.integrantesL">
+                <td>{{div.nombre}}</td>
+                <td>{{div.edad}}</td>
+                <td>{{div.correo}}</td>
+                <td>{{div.skills}}</td>                
+                <td>                    
+                   <button type="button" ng-click="vm.elimco(div.id)" class="btn btn-sm btn-danger">
+                       <i class="glyphicon  glyphicon-remove">
+                       </i>
+                   </button>  
+                <button type="button" ui-sref="app.integrantes.detalle({id: div.id})" class="btn btn-sm btn-info">
+                    <i class="glyphicon   glyphicon-eye-open">
+                    </i>
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>

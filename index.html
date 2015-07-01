@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="gdg" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>Integrantes GDG Cali</title>
+
+    <base href="/integrantesgdg/" > 
+
+
+    <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./assets/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/app.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/roboto.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/material.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/ripples.css">
+</head>
+
+<body>
+    <div ui-view="header"></div>
+    <div class="container">
+        <div ui-view="content" class="ui-view-container"></div>
+    </div>
+    <footer>
+        <div>
+
+        </div>
+    </footer>
+
+    <script src="./assets/lib/all.min.js"></script>
+
+    <script src="./assets/lib/material.js"></script>
+    <script src="./assets/lib/ripples.js"></script>
+    <script src="./assets/lib/angular-locale_es-es.js"></script>
+    <script src="./app/app-module.js"></script>
+    <script src="./app/app-config.js"></script>
+    <script src="./app/app-routes.js"></script>   
+    <script src="./app/shared/webservice.js"></script>
+    
+    <script src="./app/components/integrantes/integrantes.js"></script>
+    <script src="./app/components/integrantes/integrantes-service.js"></script>
+    <script src="./app/components/integrantes/integrantes-list.js"></script>
+    <script src="./app/components/integrantes/integrantes-agregar.js"></script>
+    <script src="./app/components/integrantes/integrantes-detalle.js"></script>
+    <script src="./app/components/integrantes/integrantes-editar.js"></script>
+
+    <script src="./app/shared/utils-service.js"></script>
+    <script src="./app/shared/notif-service.js"></script>
+    <script src="./assets/lib/angular-confirm.js"></script>
+
+
+    <script>
+       
+    </script>
+</body>
+</html>
